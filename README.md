@@ -1,13 +1,51 @@
 # Keymbinatorial
 [![Version][npm-image]][npm-url] ![Downloads][downloads-image] [![Build Status][wercker-image]][wercker-url] [![Open Issues][issues-image]][issues-url] [![Dependency Status][daviddm-image]][daviddm-url] ![License][license-image]
 
-> Module that generates the unique combinations of key values by taking a single value from each keys array 
+> Generates the unique combinations of key values by taking a single value from each keys array
 
 ## Usage
 
 ```bash
-npm install screwdriver-keymbinatorial
+npm install keymbinatorial
 ```
+
+```js
+var keymbinatorial = require('keymbinatorial');
+
+let objectToCombine = {
+    a: ['a', 'b', 'c'],
+    c: [1, 2],
+    e: [{ a: '1'}, {b: '2'}]
+};
+
+// combinations will be an array of unique combinations based on each key and the values in the array
+let combinations = keymbinatorial(objectToCombine);
+
+console.log(combinations);
+/*
+will output:
+[
+  { a: 'a', c: 1, e: { a: '1' } },
+  { a: 'a', c: 1, e: { b: '2' } },
+  { a: 'a', c: 2, e: { a: '1' } },
+  { a: 'a', c: 2, e: { b: '2' } },
+  { a: 'b', c: 1, e: { a: '1' } },
+  { a: 'b', c: 1, e: { b: '2' } },
+  { a: 'b', c: 2, e: { a: '1' } },
+  { a: 'b', c: 2, e: { b: '2' } },
+  { a: 'c', c: 1, e: { a: '1' } },
+  { a: 'c', c: 1, e: { b: '2' } },
+  { a: 'c', c: 2, e: { a: '1' } },
+  { a: 'c', c: 2, e: { b: '2' } }
+]
+*/
+```
+
+The `keymbinatorial` function takes in an Nx1 object, where N is a set of keys that map to
+an array.
+
+For each key in the object, the function builds up a list of objects containing a unique combination
+of keys to values in the array.
 
 ## Testing
 

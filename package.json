@@ -15,7 +15,9 @@
   "bugs": "https://github.com/screwdriver-cd/keymbinatorial/issues",
   "keywords": [
     "screwdriver",
-    "yahoo"
+    "yahoo",
+    "combinations",
+    "combinatorial"
   ],
   "license": "BSD-3-Clause",
   "author": "Noah Katzman <nbkatzman@gmail.com>",
@@ -37,5 +39,8 @@
     "eslint-plugin-react": "^5.1.1",
     "jenkins-mocha": "^2.6.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "clone": "^1.0.2",
+    "joi": "^9.0.1"
+  }
 }
