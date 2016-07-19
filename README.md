@@ -57,10 +57,10 @@ npm test
 
 Code licensed under the BSD 3-Clause license. See LICENSE file for terms.
 
-[npm-image]: https://img.shields.io/npm/v/screwdriver-keymbinatorial.svg
-[npm-url]: https://npmjs.org/package/screwdriver-keymbinatorial
-[downloads-image]: https://img.shields.io/npm/dt/screwdriver-keymbinatorial.svg
-[license-image]: https://img.shields.io/npm/l/screwdriver-keymbinatorial.svg
+[npm-image]: https://img.shields.io/npm/v/keymbinatorial.svg
+[npm-url]: https://npmjs.org/package/keymbinatorial
+[downloads-image]: https://img.shields.io/npm/dt/keymbinatorial.svg
+[license-image]: https://img.shields.io/npm/l/keymbinatorial.svg
 [issues-image]: https://img.shields.io/github/issues/screwdriver-cd/keymbinatorial.svg
 [issues-url]: https://github.com/screwdriver-cd/keymbinatorial/issues
 [wercker-image]: https://app.wercker.com/status/1393eaeadf0a2014e8c7c3dd83f58de2
