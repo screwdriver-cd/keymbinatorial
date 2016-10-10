@@ -1,5 +1,5 @@
 # Keymbinatorial
-[![Version][npm-image]][npm-url] ![Downloads][downloads-image] [![Build Status][wercker-image]][wercker-url] [![Open Issues][issues-image]][issues-url] [![Dependency Status][daviddm-image]][daviddm-url] ![License][license-image]
+[![Version][npm-image]][npm-url] ![Downloads][downloads-image] [![Build Status][status-image]][status-url] [![Open Issues][issues-image]][issues-url] [![Dependency Status][daviddm-image]][daviddm-url] ![License][license-image]
 
 > Generates the unique combinations of key values by taking a single value from each keys array
 
@@ -63,7 +63,7 @@ Code licensed under the BSD 3-Clause license. See LICENSE file for terms.
 [license-image]: https://img.shields.io/npm/l/keymbinatorial.svg
 [issues-image]: https://img.shields.io/github/issues/screwdriver-cd/keymbinatorial.svg
 [issues-url]: https://github.com/screwdriver-cd/keymbinatorial/issues
-[wercker-image]: https://app.wercker.com/status/1393eaeadf0a2014e8c7c3dd83f58de2
-[wercker-url]: https://app.wercker.com/project/bykey/1393eaeadf0a2014e8c7c3dd83f58de2
+[status-image]: https://cd.screwdriver.cd/pipelines/ae4b71b93b39fb564b5b5c50d71f1a988f400ab4/badge
+[status-url]: https://cd.screwdriver.cd/pipelines/ae4b71b93b39fb564b5b5c50d71f1a988f400ab4
 [daviddm-image]: https://david-dm.org/screwdriver-cd/keymbinatorial.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/screwdriver-cd/keymbinatorial
