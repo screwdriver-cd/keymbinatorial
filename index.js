@@ -1,4 +1,5 @@
 'use strict';
+
 const clone = require('clone');
 const joi = require('joi');
 
@@ -15,7 +16,7 @@ const joi = require('joi');
  */
 function generateMatrixHelper(options, currentCombination,
                                 keysToIterate, keyIndexer, permutations) {
-    if (keysToIterate.every((optionKey) => currentCombination[optionKey])) {
+    if (keysToIterate.every(optionKey => currentCombination[optionKey])) {
         permutations.push(currentCombination);
 
         return;
