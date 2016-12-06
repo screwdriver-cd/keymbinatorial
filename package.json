@@ -34,11 +34,10 @@
     "chai": "^3.5.0",
     "eslint": "^3.2.2",
     "eslint-config-screwdriver": "^2.0.0",
-    "eslint-plugin-import": "^1.12.0",
-    "jenkins-mocha": "^2.6.0"
+    "jenkins-mocha": "^3.0.4"
   },
   "dependencies": {
     "clone": "^1.0.2",
-    "joi": "^9.0.1"
+    "joi": "^10.0.5"
   }
 }
