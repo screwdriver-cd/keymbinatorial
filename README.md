@@ -61,9 +61,9 @@ Code licensed under the BSD 3-Clause license. See LICENSE file for terms.
 [npm-url]: https://npmjs.org/package/keymbinatorial
 [downloads-image]: https://img.shields.io/npm/dt/keymbinatorial.svg
 [license-image]: https://img.shields.io/npm/l/keymbinatorial.svg
-[issues-image]: https://img.shields.io/github/issues/screwdriver-cd/keymbinatorial.svg
-[issues-url]: https://github.com/screwdriver-cd/keymbinatorial/issues
-[status-image]: https://cd.screwdriver.cd/pipelines/ca5e50eed838b1bf145947f6acbd2bae60482e66/badge
-[status-url]: https://cd.screwdriver.cd/pipelines/ca5e50eed838b1bf145947f6acbd2bae60482e66
+[issues-image]: https://img.shields.io/github/issues/screwdriver-cd/screwdriver.svg
+[issues-url]: https://github.com/screwdriver-cd/screwdriver/issues
+[status-image]: https://cd.screwdriver.cd/pipelines/20/badge
+[status-url]: https://cd.screwdriver.cd/pipelines/20
 [daviddm-image]: https://david-dm.org/screwdriver-cd/keymbinatorial.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/screwdriver-cd/keymbinatorial
