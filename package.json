@@ -41,10 +41,10 @@
     "chai": "^3.5.0",
     "eslint": "^3.2.2",
     "eslint-config-screwdriver": "^2.0.0",
-    "jenkins-mocha": "^3.0.4"
+    "jenkins-mocha": "^4.1.1"
   },
   "dependencies": {
-    "clone": "^1.0.2",
+    "clone": "^2.1.0",
     "joi": "^10.0.5"
   }
 }
