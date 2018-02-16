@@ -15,7 +15,7 @@ const joi = require('joi');
   * @return {Array}                         List of permutations of the environment
  */
 function generateMatrixHelper(options, currentCombination,
-                                keysToIterate, keyIndexer, permutations) {
+    keysToIterate, keyIndexer, permutations) {
     if (keysToIterate.every(optionKey => currentCombination[optionKey])) {
         permutations.push(currentCombination);
 
@@ -31,7 +31,7 @@ function generateMatrixHelper(options, currentCombination,
         nextCombination[keyToAdd] = value;
 
         return generateMatrixHelper(options, nextCombination,
-          keysToIterate, nextKeyIndexer, permutations);
+            keysToIterate, nextKeyIndexer, permutations);
     });
 }
 
