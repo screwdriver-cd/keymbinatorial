@@ -1,7 +1,7 @@
 # Keymbinatorial
 [![Version][npm-image]][npm-url] ![Downloads][downloads-image] [![Build Status][status-image]][status-url] [![Open Issues][issues-image]][issues-url] [![Dependency Status][daviddm-image]][daviddm-url] ![License][license-image]
 
-> Generates the unique combinations of key values by taking a single value from each keys array
+> Generates a unique combinations of key values by taking a single value from each keys array
 
 ## Usage
 
