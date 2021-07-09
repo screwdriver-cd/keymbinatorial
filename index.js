@@ -14,8 +14,7 @@ const joi = require('joi');
   * @param  {Array}   permutations          The permutations array to be pushing to
   * @return {Array}                         List of permutations of the environment
  */
-function generateMatrixHelper(options, currentCombination,
-    keysToIterate, keyIndexer, permutations) {
+function generateMatrixHelper(options, currentCombination, keysToIterate, keyIndexer, permutations) {
     if (keysToIterate.every(optionKey => currentCombination[optionKey])) {
         permutations.push(currentCombination);
 
@@ -25,27 +24,26 @@ function generateMatrixHelper(options, currentCombination,
     const keyToAdd = keysToIterate[keyIndexer];
     const nextKeyIndexer = keyIndexer + 1;
 
-    options[keyToAdd].forEach((value) => {
+    options[keyToAdd].forEach(value => {
         const nextCombination = clone(currentCombination);
 
         nextCombination[keyToAdd] = value;
 
-        return generateMatrixHelper(options, nextCombination,
-            keysToIterate, nextKeyIndexer, permutations);
+        return generateMatrixHelper(options, nextCombination, keysToIterate, nextKeyIndexer, permutations);
     });
 }
 
 /**
-  * Generate all permutations of a given environment matrix
-  * @method generateMatrix
-  * @param  {Object}       options         Object of Key => Array
-  * @return {Array}                        List of permutations of the environment
+ * Generate all permutations of a given environment matrix
+ * @method generateMatrix
+ * @param  {Object}       options         Object of Key => Array
+ * @return {Array}                        List of permutations of the environment
  */
 function generateMatrix(options) {
     const perms = [];
     const keysToIterate = Object.keys(options);
 
-    keysToIterate.forEach((key) => {
+    keysToIterate.forEach(key => {
         joi.assert(options[key], joi.array(), `${key} needs to be an array`);
     });
 
