@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keymbinatorial.git"
+    "url": "git+https://github.com/screwdriver-cd/keymbinatorial.git"
   },
   "homepage": "https://github.com/screwdriver-cd/keymbinatorial",
   "bugs": "https://github.com/screwdriver-cd/screwdriver/issues",
