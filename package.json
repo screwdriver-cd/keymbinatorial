@@ -1,6 +1,6 @@
 {
   "name": "keymbinatorial",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Module that generates the unique combinations of key values by taking a single value from each keys array",
   "main": "index.js",
   "scripts": {
@@ -35,8 +35,8 @@
   },
   "devDependencies": {
     "chai": "^4.3.7",
-    "eslint": "^8.27.0",
-    "eslint-config-screwdriver": "^7.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-screwdriver": "^8.0.0",
     "mocha": "^10.1.0",
     "mocha-multi-reporters": "^1.5.1",
     "mocha-sonarqube-reporter": "^1.0.2",
